@@ -1,0 +1,17 @@
+<block>
+  <name>Encoder cc</name>
+  <key>alamouti_encoder_cc</key>
+  <category>ALAMOUTI</category>
+  <import>import alamouti</import>
+  <make>alamouti.encoder_cc()</make>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+    <nports>2</nports>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <nports>2</nports>
+  </source>
+</block>

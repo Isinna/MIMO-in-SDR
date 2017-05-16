@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgnuradio-alamouti.so -o libgnuradio-alamouti.so CMakeFiles/gnuradio-alamouti.dir/alamouti_encoder_cc_impl.cc.o -Wl,-rpath,/usr/local/lib: -lboost_filesystem-mt -lboost_system-mt /usr/local/lib/libgnuradio-runtime.so 
